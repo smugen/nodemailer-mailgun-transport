@@ -1,0 +1,32 @@
+{
+  "name": "nodemailer-mailgun-transport",
+  "version": "0.0.1",
+  "description": "A nodemailer transport module using Mailgun's REST API",
+  "main": "src/mailgun-transport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smugen/nodemailer-mailgun-transport"
+  },
+  "keywords": [
+    "nodemailer",
+    "mailgun",
+    "email"
+  ],
+  "author": "SMUGEN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smugen/nodemailer-mailgun-transport/issues"
+  },
+  "homepage": "https://github.com/smugen/nodemailer-mailgun-transport",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "request": "^2.40.0"
+  },
+  "devDependencies": {
+    "nodemailer": "^1.2.1",
+    "nodemailer-html-to-text": "^1.0.0"
+  }
+}
