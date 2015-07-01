@@ -5,7 +5,7 @@ var _ = require('lodash'),
 
 module.exports = function (option) {
   option = option || {};
-  var base = option.base || 'https://api.mailgun.net/v2/',
+  var base = option.base || 'https://api.mailgun.net/v3/',
       domain = option.domain,
       username = option.username || 'api',
       password = option.password,
